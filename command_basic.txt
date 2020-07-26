@@ -1,0 +1,25 @@
+
+#<<----- FILE COMMANDS ----->>
+
+ls			==> directory listing
+ls -ol 			==> formatted listing with hidden files
+cd dir 			==> change directory to dir
+cd			==> change to home
+pwd 			==> show current directory
+mkdir dir		==> create a directory dir
+rm file 		==> delete file
+rm -r dir		==> delete directory dir
+rm -f file		==> force remove fire
+rm -rf dir		==> for remove directory dir
+cp file1 file2		==> copy file1 to file2
+cp -r dir1 dir2		==> copy dir1 to dir2; create dir2 if it doesnt exit
+mv file1 file2		==> rename or more file1 to file2. if filed 2 is an
+			    existing directory, moves file1 into directory file2ln -s file link 	==> create symbolic link link to file
+touch file		==> create or update file
+cat > file		==> places standard input into file
+more file		==> output the content of file
+head file 		==> output the firest 10 lines of file
+tail file		==> output the last 10 lines of file
+tail -f file 		==> output the contents of file as it grows, starting				    with the last 10 lines
+
+
